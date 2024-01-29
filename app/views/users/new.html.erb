@@ -1,0 +1,11 @@
+<%= form_with model: @user do |f| %>
+  <div class="mb-3">
+    <%= f.label :email, class: 'form-label' %>
+    <%= f.email_field :email, class: 'form-control' %>
+  </div>
+  <div class="mb-3">
+    <%= f.label :password, class: 'form-label' %>
+    <%= f.password_field :password, class: 'form-control' %>
+  </div>
+  <%= f.submit nil, class: 'btn btn-primary' %>
+<% end %>
