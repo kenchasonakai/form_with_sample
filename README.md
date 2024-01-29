@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby version
+3.2.2
 
-Things you may want to cover:
+## Rails version
+7.1.3
 
-* Ruby version
+## DB
+sqlite
 
-* System dependencies
+## 環境構築
+下記のコマンドを実行してください
 
-* Configuration
+```
+docker compose build
+docker compose up
+```
 
-* Database creation
+サーバーが立ち上がったら下記のURLにアクセスしてください
 
-* Database initialization
+http://localhost:3001
 
-* How to run the test suite
+## ページ一覧
 
-* Services (job queues, cache servers, search engines, etc.)
+### ユーザー作成画面
+http://localhost:3001/users/new
 
-* Deployment instructions
-
-* ...
+### ログイン画面
+http://localhost:3001/login
