@@ -14,8 +14,8 @@ sqlite
 
 ```
 docker compose build
-docker compose run web --rm yarn build
-docker compose run web --rm yarn build:css
+docker compose run --rm web yarn build
+docker compose run --rm web yarn build:css
 docker compose up
 ```
 
