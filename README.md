@@ -13,6 +13,10 @@ sqlite
 下記のコマンドを実行してください
 
 ```
+cd
+mkdir form_with_practice && cd form_with_practice
+git clone git@github.com:kenchasonakai/form_with_sample.git
+cd form_with_sample.git
 docker compose build
 docker compose run --rm web yarn build
 docker compose run --rm web yarn build:css
